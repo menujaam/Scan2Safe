@@ -1,13 +1,13 @@
 {
   "name": "Scan2Safe",
   "short_name": "Scan2Safe",
-  "description": "A Progressive Web App for scanning and safety",
+  "description": "Fire extinguisher safety inspection platform — 8-step photo-based inspection workflow.",
   "start_url": "/index.html",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#ffffff",
-  "theme_color": "#007AFF",
+  "background_color": "#0d3535",
+  "theme_color": "#0d3535",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -39,33 +39,5 @@
       "purpose": "maskable"
     }
   ],
-  "screenshots": [
-    {
-      "src": "/assets/screenshot-1.png",
-      "sizes": "540x720",
-      "type": "image/png",
-      "form_factor": "narrow"
-    },
-    {
-      "src": "/assets/screenshot-2.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide"
-    }
-  ],
-  "categories": ["productivity"],
-  "shortcuts": [
-    {
-      "name": "Dashboard",
-      "short_name": "Dashboard",
-      "description": "View your dashboard",
-      "url": "/dashboard.html",
-      "icons": [
-        {
-          "src": "/assets/dashboard-icon-192.png",
-          "sizes": "192x192"
-        }
-      ]
-    }
-  ]
+  "categories": ["productivity", "utilities"]
 }
